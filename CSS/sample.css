@@ -1,3 +1,54 @@
-h2{
-    color: red;
+body {
+    background-color: rgb(230, 201, 159);
 }
+
+p {
+    text-align: center;
+    text-decoration: overline;
+    font-style: italic;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 5px 2px 3px violet;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h6 {
+    border: 2px solid black;
+    word-spacing: 5px;
+    padding: 20px;
+    text-align: justify;
+    margin: 20px;
+    width: 90%;
+    height: 100px;
+    overflow: hidden;
+}
+
+h6::first-letter {
+    font-size: 20px;
+    text-indent: 15px;
+}
+
+h6:hover {
+    color: brown;
+}
+
+a:focus {
+    color: brown;
+}
+
+.contn{
+    width: 90%;
+    border-width: 10px 40px 10px 40px;
+    border-style: solid;
+    border-color: black;    
+}
+
+.news p{
+    width: 50%;
+    float: left;
+}
+
+

@@ -1,0 +1,36 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.ft {
+    height: 150px;
+    width: 150px;
+    /* background-color: blue; */
+    margin: auto;
+    /* background: linear-gradient(blue 60%, yellow 40%); */
+    background: conic-gradient(blue, green, red, yellow, pink, orange);
+    border-radius: 50%;
+
+}
+
+.sd {
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    background-image: conic-gradient(red 0deg, red 50deg, yellow 50deg, yellow 100deg, green 100deg, green 150deg, blue 150deg, blue 200deg, rgb(230, 173, 16)200deg, rgb(230, 173, 16)250deg, rgb(0, 255, 85)250deg, rgb(0, 255, 85)300deg, rgb(243, 8, 98)300deg, rgb(243, 8, 98)350deg ) ;
+    border-radius: 50%;
+
+}
+
+.td{
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    background-image: conic-gradient(red 0deg, red 30deg, yellow 30deg, yellow 60deg, red 60deg, red 90deg, yellow 90deg, yellow 120deg, red 120deg, red 150deg,yellow 150deg,  yellow 180deg,red 180deg, red 210deg,yellow 210deg, yellow 240deg, red 240deg, red 270deg, yellow 270deg, yellow 300deg, red 300deg, red 330deg, yellow 330deg, yellow 360deg) ;
+    border-radius: 50%;
+}
+
+h1{
+    text-align: center;
+    text-decoration-line: underline;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+}
